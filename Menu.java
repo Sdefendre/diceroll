@@ -1,7 +1,9 @@
-/*
- * @topic  Dice Roller App 
- * @brief Menu class to present a menu of choices to the user.
- */
+/*Assignment Number: 6
+*Assignment Title: Dice roll App
+*Program Author: Steve Defendre
+*date due: 2023-10-29
+* @brief Menu class to present a menu of choices to the user.
+*/
 package diceroll;
 import java.util.Scanner;
 

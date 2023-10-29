@@ -1,5 +1,7 @@
-/*
- * @topic  Dice Roller App
+/*Assignment Number: 6
+*Assignment Title: Dice roll App
+*Program Author: Steve Defendre
+*date due: 2023-10-29
  * @brief  Class to represent a pair of dice.
  */
 package diceroll;

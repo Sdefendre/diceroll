@@ -1,6 +1,8 @@
-/*
- * @topic Dice Roller App 
- * @brief Main driver to test the DicePair and Menu classes.
+/*Assignment Number: 6
+*Assignment Title: Dice roll App
+*Program Author: Steve Defendre
+*date due: 2023-10-23
+ *Main driver to test the DicePair and Menu classes.
  */
 package diceroll;
 

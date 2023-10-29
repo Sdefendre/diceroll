@@ -1,9 +1,9 @@
-
-/*@author Steve Defendre
- * @date 2023-10-29
- * @topic Dice Roller App 
- * @brief Die class to represent a single die.
- */
+/*Assignment Number: 6
+*Assignment Title: Dice roll App
+*Program Author: Steve Defendre
+*date due: 2023-10-29
+* @brief Die class to represent a single die.
+*/
 package diceroll;
 
 public class Die {
