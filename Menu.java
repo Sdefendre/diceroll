@@ -1,0 +1,45 @@
+/*
+ * @topic  Dice Roller App 
+ * @brief Menu class to present a menu of choices to the user.
+ */
+package diceroll;
+import java.util.Scanner;
+
+public class Menu {
+    public static final int CHOICE_UNKNOWN = 0;
+    public static final int CHOICE_SIDE_COUNT = 1;
+    public static final int CHOICE_ROLL = 2;
+    public static final int CHOICE_QUIT = 3;
+
+    private String strChoices;
+    private Scanner sc;
+    private int choice;
+
+    // constructors
+    public Menu()
+    {
+        strChoices = "Make your choice:\n";
+        sc = new Scanner( System.in );
+        choice = CHOICE_UNKNOWN;
+    }
+
+    // operations
+
+    public void attach( String aChoice )
+    {
+        strChoices += aChoice;
+        strChoices += "\n";
+    }
+
+    public int getUserChoice()
+    {
+        System.out.print( strChoices );
+        System.out.print( ">>> " );
+        choice = sc.nextInt();
+        if (choice < 1 || choice > 3) {
+            System.out.println("Invalid choice. Please try again.");
+            choice = CHOICE_UNKNOWN;
+        }
+        return choice;
+    }
+}//class Menu
