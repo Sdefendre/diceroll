@@ -4,7 +4,7 @@
 *date due: 2023-10-29
  * @brief  Class to represent a pair of dice.
  */
-package diceroll;
+//package diceroll;
 
 public class DicePair {
     // data fields

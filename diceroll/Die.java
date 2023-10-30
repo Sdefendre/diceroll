@@ -4,7 +4,7 @@
 *date due: 2023-10-29
 * @brief Die class to represent a single die.
 */
-package diceroll;
+//package diceroll;
 
 public class Die {
     static final int DEFAULT_SIDE_COUNT = 6;

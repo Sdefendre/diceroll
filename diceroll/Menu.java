@@ -4,7 +4,7 @@
 *date due: 2023-10-29
 * @brief Menu class to present a menu of choices to the user.
 */
-package diceroll;
+//package diceroll;
 import java.util.Scanner;
 
 public class Menu {
@@ -24,7 +24,11 @@ public class Menu {
         sc = new Scanner( System.in );
         choice = CHOICE_UNKNOWN;
     }
-
+    // display welcome message
+    public void displayWelcome()
+    {
+        System.out.println( "Welcome to the Dice Roll App. \nThis app was created by: Steve Defendre. \nPlease choose an option below\n" );
+    }
     // operations
 
     public void attach( String aChoice )
